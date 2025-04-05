@@ -25,7 +25,7 @@ export default function Home() {
       <main className="flex flex-col min-h-screen">
         {/* Hero Section */}
         <section className="relative w-full h-[80vh] min-h-[600px] ">
-          <div className="absolute inset-0 z-0 bg-gradient-to-b from-black to-black/70 ">
+          <div className="absolute inset-0 z-20 bg-gradient-to-b from-black to-black/70 ">
             <Image
                 src="/dog-bg.jpg"
                 alt="Happy dog after grooming"
@@ -34,7 +34,7 @@ export default function Home() {
                 className="object-cover"
             />
           </div>
-          <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center">
+          <div className="relative z-30 container mx-auto px-4 h-full flex flex-col justify-center">
             <div className="max-w-2xl space-y-6">
               <Badge className="bg-rose-500 hover:bg-rose-600 px-4 py-1 text-white text-xl">Professional Grooming</Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-md">
